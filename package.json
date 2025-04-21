@@ -1,11 +1,17 @@
 {
-  "dependencies": {
-    "express": "^4.19.2",
-    "nodemon": "^3.1.4"
-  },
+  "name": "backend-lab3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
   }
-
 }
